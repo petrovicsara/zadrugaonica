@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e4e2b972ce33f02e6d9941aaf08c99d8/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/8344e29e2b795d377e450651663f59cf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/47fcd1925a4945c39502c2b7e9a2b786/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6cec7119b7c3b84393b568aeea5a81e7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/1174b67027131b21f8a539cd29949950/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c23de2ccad1e7f8e10d7fe95d46d65e5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/9c7b44b75bbb789da9875dd4ce340fd7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c94f2d40bb4dc4a031df47dc554e607d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/5137f3d353f316346b12be82cfba14b0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/8fe3fc3ed229b2c873f898fa249ff8c9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/52adfa14e5f09fff97a7201e56f61267/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ede63dd64d8edf6ef981096e6aea0a66/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/49c89955ad1ae19f1a319efc5544ad50/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/98743470cf0aa726ae23b4ed9af0dd01/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/5c357a242f8261ff8c980e2fe9f6e970/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/57073de1e2b5121bed330c37550ad6da/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5261751a1ecde5fb06d1bd11723bb2da/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/a8b1b4f77fe1c2e12ff02f034d9d793f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sarapetrovic/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/16b8357f35e5f39f3cf398e542a26d2a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/Users/sarapetrovic/Downloads/Zadrugonica/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+
+</items>

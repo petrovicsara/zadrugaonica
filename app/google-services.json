@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969170367048",
+    "firebase_url": "https://zadrugonica.firebaseio.com",
+    "project_id": "zadrugonica",
+    "storage_bucket": "zadrugonica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969170367048:android:b6725b9f80a2879ccf9e7d",
+        "android_client_info": {
+          "package_name": "com.example.sarapetrovic.zadrugonica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969170367048-qdrdjm20j5m20jdmjqo3vvk398pabpud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarapetrovic.zadrugonica",
+            "certificate_hash": "e2978563b6c19eb00210dc916bc66c5b69d7ac1c"
+          }
+        },
+        {
+          "client_id": "969170367048-s18es89l169i9nd4s2lk8f1tqd5ejrlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ3ktjgaoZoFyx4r7WIWX06YwSjYC0Glc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969170367048-s18es89l169i9nd4s2lk8f1tqd5ejrlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

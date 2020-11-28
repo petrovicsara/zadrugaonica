@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/planeWhite">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:textSize="20sp"
+        android:textColor="@color/planeBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:text="Description"
+        app:layout_constraintStart_toEndOf="@id/tvName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.000"
+        android:textColor="@color/price"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"/>
+
+</android.support.constraint.ConstraintLayout>

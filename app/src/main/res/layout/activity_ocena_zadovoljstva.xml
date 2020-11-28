@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarapetrovic.zadrugonica.OcenaZadovoljstvaActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="50dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="50dp" />
+
+    <TextView
+        android:id="@+id/tvOcena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/ocenaZadovoljstva"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJednostavnost"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@id/tvOcena"
+        android:layout_marginTop="120dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/jednostavnost"
+        android:textAllCaps="true"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarJednostavnost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvJednostavnost"
+        app:layout_constraintTop_toTopOf="@+id/tvJednostavnost"
+        app:layout_constraintBottom_toBottomOf="@id/tvJednostavnost"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/tvPonuda"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@id/tvJednostavnost"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/ponuda"
+        android:textAllCaps="true"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarKoriscenje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvPonuda"
+        app:layout_constraintTop_toTopOf="@+id/tvPonuda"
+        app:layout_constraintBottom_toBottomOf="@id/tvPonuda"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/btnZavrsiOcene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:text="@string/zavrsi"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

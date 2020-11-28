@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarapetrovic.zadrugonica.OpcijeActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="24dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="24dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="300dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="115dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tvOpcije"
+        app:layout_constraintGuide_begin="170dp" />
+
+    <TextView
+        android:id="@+id/tvOpcije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcije"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@id/guidelineRight"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/zadruga_logo"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:id="@+id/ivUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListLeft"/>
+
+    <TextView
+        android:id="@+id/tvImePrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imePrezime"
+        app:layout_constraintTop_toBottomOf="@id/ivUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListLeft"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/planeBlack"/>
+
+    <TextView
+        android:id="@+id/tvRazred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/razred"
+        app:layout_constraintTop_toBottomOf="@id/tvImePrezime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListLeft"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/planeBlack"/>
+
+    <TextView
+        android:id="@+id/tvBrojPoena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brojPoena"
+        app:layout_constraintTop_toBottomOf="@id/tvRazred"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListLeft"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/planeBlack"/>
+
+    <ImageButton
+        android:id="@+id/ibPribor"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:contentDescription="pribor"
+        android:alpha="0.5"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:src="@drawable/pribor_sveske"
+        app:layout_constraintStart_toStartOf="@id/guidelineListLeft"
+        app:layout_constraintEnd_toStartOf="@id/ibUniforma"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop"/>
+
+    <TextView
+        android:id="@+id/tvPribor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/priborOprema"
+        app:layout_constraintStart_toStartOf="@id/ibPribor"
+        app:layout_constraintEnd_toEndOf="@id/ibPribor"
+        app:layout_constraintBottom_toBottomOf="@id/ibPribor"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <ImageButton
+        android:id="@+id/ibUniforma"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:alpha="0.4"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:src="@drawable/skolskauniforma"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListRight"
+        app:layout_constraintStart_toEndOf="@id/ibPribor"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop" />
+
+    <TextView
+        android:id="@+id/tvUniforma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uniforme"
+        app:layout_constraintStart_toStartOf="@id/ibUniforma"
+        app:layout_constraintEnd_toEndOf="@id/ibUniforma"
+        app:layout_constraintBottom_toBottomOf="@id/ibUniforma"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/ibUzina"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:alpha="0.6"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:src="@drawable/uzina"
+        app:layout_constraintStart_toStartOf="@id/guidelineListLeft"
+        app:layout_constraintEnd_toStartOf="@id/ibKnjige"
+        app:layout_constraintTop_toBottomOf="@id/ibPribor"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvUzina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uzina"
+        app:layout_constraintStart_toStartOf="@id/ibUzina"
+        app:layout_constraintEnd_toEndOf="@id/ibUzina"
+        app:layout_constraintBottom_toBottomOf="@id/ibUzina"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <ImageButton
+        android:id="@+id/ibKnjige"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:alpha="0.6"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:src="@drawable/knjige"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListRight"
+        app:layout_constraintStart_toEndOf="@id/ibUzina"
+        app:layout_constraintTop_toBottomOf="@id/ibUniforma"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvKnjige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/knjige"
+        app:layout_constraintStart_toStartOf="@id/ibKnjige"
+        app:layout_constraintEnd_toEndOf="@id/ibKnjige"
+        app:layout_constraintBottom_toBottomOf="@id/ibKnjige"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <ImageButton
+        android:id="@+id/ibEksku"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:alpha="0.5"
+        android:scaleType="fitCenter"
+        android:padding="0dp"
+        android:src="@drawable/ekskurzija"
+        app:layout_constraintStart_toStartOf="@id/ibUzina"
+        app:layout_constraintTop_toBottomOf="@id/ibUzina"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvEkskurzije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ekskurzija"
+        app:layout_constraintStart_toStartOf="@id/ibEksku"
+        app:layout_constraintEnd_toEndOf="@id/ibEksku"
+        app:layout_constraintBottom_toBottomOf="@id/ibEksku"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnNazad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        android:text="@string/nazad"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+</android.support.constraint.ConstraintLayout>

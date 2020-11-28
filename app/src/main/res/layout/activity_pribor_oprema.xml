@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/planeWhite"
+    tools:context="com.example.sarapetrovic.zadrugonica.PriborOpremaActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="24dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="24dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="115dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_end="115dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineListTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tvOpcije"
+        app:layout_constraintGuide_begin="90dp" />
+
+    <TextView
+        android:id="@+id/tvOpcije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/priborOprema"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@id/guidelineRight"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/zadruga_logo"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:id="@+id/ivKalkulator"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/kalkulator"
+        app:layout_constraintStart_toStartOf="@id/guidelineListLeft"
+        app:layout_constraintEnd_toStartOf="@id/ivFlomaster"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop"/>
+
+    <Button
+        android:id="@+id/btnKal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivKalkulator"
+        app:layout_constraintStart_toStartOf="@id/ivKalkulator"
+        app:layout_constraintEnd_toEndOf="@id/ivKalkulator"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+
+    <ImageView
+        android:id="@+id/ivFlomaster"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/flomaster"
+        app:layout_constraintStart_toEndOf="@id/ivKalkulator"
+        app:layout_constraintEnd_toStartOf="@id/ivSveske"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop"/>
+
+    <Button
+        android:id="@+id/btnFlomas"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivFlomaster"
+        app:layout_constraintStart_toStartOf="@id/ivFlomaster"
+        app:layout_constraintEnd_toEndOf="@id/ivFlomaster"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/ivSveske"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/sveske"
+        app:layout_constraintStart_toEndOf="@id/ivFlomaster"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListRight"
+        app:layout_constraintTop_toBottomOf="@id/guidelineListTop"/>
+
+    <Button
+        android:id="@+id/btnSveske"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivSveske"
+        app:layout_constraintStart_toStartOf="@id/ivSveske"
+        app:layout_constraintEnd_toEndOf="@id/ivSveske"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/ivTempere"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/tempere"
+        app:layout_constraintStart_toStartOf="@id/guidelineListLeft"
+        app:layout_constraintEnd_toStartOf="@id/ivGelOlovka"
+        app:layout_constraintTop_toBottomOf="@id/btnKal"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnTempere"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivTempere"
+        app:layout_constraintStart_toStartOf="@id/ivTempere"
+        app:layout_constraintEnd_toEndOf="@id/ivTempere"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/ivGelOlovka"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/gelolovka"
+        app:layout_constraintStart_toEndOf="@id/ivTempere"
+        app:layout_constraintEnd_toStartOf="@id/ivVezbanka"
+        app:layout_constraintTop_toBottomOf="@id/btnFlomas"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnGelRoler"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivGelOlovka"
+        app:layout_constraintStart_toStartOf="@id/ivGelOlovka"
+        app:layout_constraintEnd_toEndOf="@id/ivGelOlovka"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/ivVezbanka"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:src="@drawable/vezbanka"
+        app:layout_constraintStart_toEndOf="@id/ivGelOlovka"
+        app:layout_constraintEnd_toStartOf="@id/guidelineListRight"
+        app:layout_constraintTop_toBottomOf="@id/btnSveske"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btnVezbanka"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ivVezbanka"
+        app:layout_constraintStart_toStartOf="@id/ivVezbanka"
+        app:layout_constraintEnd_toEndOf="@id/ivVezbanka"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/dodajUKorpu"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnNazad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        android:text="@string/nazad"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnPotvrdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        android:text="@string/potvrdi"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+</android.support.constraint.ConstraintLayout>

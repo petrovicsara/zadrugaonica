@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Zadrugonica</string>
+    <string name="naslov">Дигитална књижара ученичке задруге \n„Деца Стига”</string>
+    <string name="Bradarac">Брадарац</string>
+    <string name="pokreni">покрени</string>
+    <string name="opcije">Опције:</string>
+    <string name="priborOprema">прибор и опрема</string>
+    <string name="ekskurzija">екскурзије</string>
+    <string name="uzina">ужина</string>
+    <string name="knjige">књиге</string>
+    <string name="uniforme">школске униформе</string>
+    <string name="nazad">назад</string>
+    <string name="potvrdi">потврди</string>
+    <string name="dodajUKorpu">додај у корпу</string>
+    <string name="korpa">моја корпа</string>
+    <string name="zavrsi">заврши</string>
+    <string name="cenaDesc">Укупно:</string>
+    <string name="placanje">начин плаћања: </string>
+    <string name="isporuka">начин испоруке: </string>
+    <string name="kes">кеш</string>
+    <string name="pouzece">поузеће</string>
+    <string name="uplatnica">уплатница</string>
+    <string name="uSkoli">у школи</string>
+    <string name="naKucnuAdresu">на кућну адресу</string>
+    <string name="praznaKorpa">Ваша корпа је празна!</string>
+    <string name="ocenaZadovoljstva">Оцена задовољства</string>
+    <string name="jednostavnost">једноставност коришћења</string>
+    <string name="ponuda">обим понуде</string>
+    <string name="razred">VII5</string>
+    <string name="brojPoena">2.550 поена</string>
+    <string name="imePrezime">Игор Филиповић</string>
+</resources>

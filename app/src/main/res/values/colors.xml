@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F66A1</color>
+    <color name="colorPrimaryDark">#015093</color>
+    <color name="colorAccent">#39AB49</color>
+    <color name="planeWhite">#FFFFFF</color>
+    <color name="planeBlack">#000000</color>
+    <color name="gray">#6F747D</color>
+    <color name="price">#b51822</color>
+</resources>

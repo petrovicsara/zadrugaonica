@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/planeWhite"
+    tools:context="com.example.sarapetrovic.zadrugonica.KorpaActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+    <TextView
+        android:id="@+id/tvKorpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/korpa"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPraznaKorpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintTop_toBottomOf="@id/tvKorpa"
+        android:text="@string/praznaKorpa"
+        android:textSize="20sp"
+        android:textColor="@color/planeBlack"/>
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toStartOf="@id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/tvKorpa"/>
+
+    <TextView
+        android:id="@+id/tvCenaDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="@string/cenaDesc"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@id/tvCena"
+        app:layout_constraintStart_toStartOf="@id/lvItems"
+        app:layout_constraintTop_toBottomOf="@id/lvItems" />
+
+    <TextView
+        android:id="@+id/tvCena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/price"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/lvItems"
+        app:layout_constraintStart_toEndOf="@id/tvCenaDesc"
+        app:layout_constraintTop_toBottomOf="@id/lvItems"
+        android:text="1000"/>
+
+    <TextView
+        android:id="@+id/tvPlacenja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placanje"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/lvItems"
+        app:layout_constraintTop_toBottomOf="@id/tvCenaDesc"
+        app:layout_constraintEnd_toStartOf="@id/rgPlacanje"/>
+
+    <RadioGroup
+        android:id="@+id/rgPlacanje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/tvPlacenja"
+        app:layout_constraintStart_toEndOf="@id/tvPlacenja"
+        app:layout_constraintEnd_toStartOf="@id/tvDostava">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kes"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pouzece"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uplatnica"
+            android:textSize="30sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvDostava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/isporuka"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/rgPlacanje"
+        app:layout_constraintTop_toTopOf="@id/tvPlacenja"
+        app:layout_constraintEnd_toStartOf="@id/rgIsporuka"/>
+
+    <RadioGroup
+        android:id="@+id/rgIsporuka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="@id/tvDostava"
+        app:layout_constraintStart_toEndOf="@id/tvDostava"
+        app:layout_constraintEnd_toEndOf="@id/lvItems">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uSkoli"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naKucnuAdresu"
+            android:textSize="30sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNazad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        android:text="@string/nazad"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnZavrsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:text="@string/zavrsi"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight" />
+
+</android.support.constraint.ConstraintLayout>
